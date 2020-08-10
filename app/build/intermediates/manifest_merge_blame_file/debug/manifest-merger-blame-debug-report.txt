@@ -1,0 +1,272 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.huawei.hms.ads.sdk"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:13:5-79
+12-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:13:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:14:5-76
+13-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:14:22-73
+14
+15    <application
+15-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:7:5-57:19
+16        android:name="com.huawei.hms.ads.sdk.AdSampleApplication"
+16-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:8:9-44
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:9:9-43
+20        android:label="@string/app_name"
+20-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:10:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:11:9-54
+22        android:supportsRtl="true"
+22-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:12:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme"
+24-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:13:9-40
+25        android:usesCleartextTraffic="true" >
+25-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:14:9-44
+26        <activity
+26-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:16:9-25:20
+27            android:name="com.huawei.hms.ads.sdk.SplashActivity"
+27-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:17:13-43
+28            android:exported="true"
+28-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:18:13-36
+29            android:screenOrientation="portrait"
+29-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:19:13-49
+30            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+30-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:20:13-71
+31            <intent-filter>
+31-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:21:13-24:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:22:17-69
+32-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:22:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:23:17-77
+34-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:23:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:26:9-31:20
+38            android:name="com.huawei.hms.ads.sdk.MainActivity"
+38-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:27:13-41
+39            android:configChanges="orientation|screenSize"
+39-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:28:13-59
+40            android:exported="false"
+40-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:29:13-37
+41            android:screenOrientation="portrait" >
+41-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:30:13-49
+42        </activity>
+43        <activity
+43-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:32:9-35:52
+44            android:name="com.huawei.hms.ads.sdk.BannerActivity"
+44-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:33:13-43
+45            android:exported="false"
+45-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:34:13-37
+46            android:screenOrientation="portrait" />
+46-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:35:13-49
+47        <activity
+47-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:36:9-39:51
+48            android:name="com.huawei.hms.ads.sdk.NativeActivity"
+48-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:37:13-43
+49            android:exported="false"
+49-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:38:13-37
+50            android:screenOrientation="portrait" />
+50-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:39:13-49
+51        <activity
+51-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:40:9-43:52
+52            android:name="com.huawei.hms.ads.sdk.RewardActivity"
+52-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:41:13-43
+53            android:exported="false"
+53-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:42:13-37
+54            android:screenOrientation="portrait" />
+54-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:43:13-49
+55        <activity
+55-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:44:9-47:52
+56            android:name="com.huawei.hms.ads.sdk.InterstitialActivity"
+56-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:45:13-49
+57            android:exported="false"
+57-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:46:13-37
+58            android:screenOrientation="portrait" />
+58-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:47:13-49
+59        <activity
+59-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:48:9-52:47
+60            android:name="com.huawei.hms.ads.sdk.ProtocolActivity"
+60-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:49:13-45
+61            android:exported="false"
+61-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:50:13-37
+62            android:screenOrientation="portrait"
+62-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:51:13-49
+63            android:theme="@style/AppTheme" />
+63-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:52:13-44
+64        <activity
+64-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:53:9-56:52
+65            android:name="com.huawei.hms.ads.sdk.ConsentActivity"
+65-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:54:13-44
+66            android:exported="false"
+66-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:55:13-37
+67            android:screenOrientation="portrait" />
+67-->D:\androidStudio\workPlace\hms-ads-demo-java-master\app\src\main\AndroidManifest.xml:56:13-49
+68
+69        <meta-data
+69-->[com.huawei.hms:ads-lite:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\0c5978cf2907b7563cc0e8b25af36c6d\ads-lite-13.4.31.300\AndroidManifest.xml:13:9-15:52
+70            android:name="com.huawei.hms.client.service.name:ads-lite"
+70-->[com.huawei.hms:ads-lite:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\0c5978cf2907b7563cc0e8b25af36c6d\ads-lite-13.4.31.300\AndroidManifest.xml:14:13-71
+71            android:value="ads-lite:13.4.31.300" />
+71-->[com.huawei.hms:ads-lite:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\0c5978cf2907b7563cc0e8b25af36c6d\ads-lite-13.4.31.300\AndroidManifest.xml:15:13-49
+72        <meta-data
+72-->[com.huawei.hms:ads-consent:3.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\82b346c144e398f20d4c69123c4338c8\jetified-ads-consent-3.4.31.300\AndroidManifest.xml:13:9-15:54
+73            android:name="com.huawei.hms.client.service.name:ads-consent"
+73-->[com.huawei.hms:ads-consent:3.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\82b346c144e398f20d4c69123c4338c8\jetified-ads-consent-3.4.31.300\AndroidManifest.xml:14:13-74
+74            android:value="ads-consent:3.4.31.300" />
+74-->[com.huawei.hms:ads-consent:3.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\82b346c144e398f20d4c69123c4338c8\jetified-ads-consent-3.4.31.300\AndroidManifest.xml:15:13-51
+75        <meta-data
+75-->[com.huawei.hms:ads-banner:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\e40dc0c38edd85023d289ddf457db140\ads-banner-13.4.31.300\AndroidManifest.xml:13:9-15:54
+76            android:name="com.huawei.hms.client.service.name:ads-banner"
+76-->[com.huawei.hms:ads-banner:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\e40dc0c38edd85023d289ddf457db140\ads-banner-13.4.31.300\AndroidManifest.xml:14:13-73
+77            android:value="ads-banner:13.4.31.300" />
+77-->[com.huawei.hms:ads-banner:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\e40dc0c38edd85023d289ddf457db140\ads-banner-13.4.31.300\AndroidManifest.xml:15:13-51
+78        <meta-data
+78-->[com.huawei.hms:ads-template:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\24914b8fae1d59e8e1559c74c74f8f78\ads-template-13.4.31.300\AndroidManifest.xml:13:9-15:56
+79            android:name="com.huawei.hms.client.service.name:ads-template"
+79-->[com.huawei.hms:ads-template:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\24914b8fae1d59e8e1559c74c74f8f78\ads-template-13.4.31.300\AndroidManifest.xml:14:13-75
+80            android:value="ads-template:13.4.31.300" />
+80-->[com.huawei.hms:ads-template:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\24914b8fae1d59e8e1559c74c74f8f78\ads-template-13.4.31.300\AndroidManifest.xml:15:13-53
+81        <meta-data
+81-->[com.huawei.hms:ads-native:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\b389c122d39af4e13aa3d1824ed691ba\ads-native-13.4.31.300\AndroidManifest.xml:13:9-15:54
+82            android:name="com.huawei.hms.client.service.name:ads-native"
+82-->[com.huawei.hms:ads-native:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\b389c122d39af4e13aa3d1824ed691ba\ads-native-13.4.31.300\AndroidManifest.xml:14:13-73
+83            android:value="ads-native:13.4.31.300" />
+83-->[com.huawei.hms:ads-native:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\b389c122d39af4e13aa3d1824ed691ba\ads-native-13.4.31.300\AndroidManifest.xml:15:13-51
+84        <meta-data
+84-->[com.huawei.hms:ads-interstitial:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\dabbb10a8c7777789024a8309675938a\ads-interstitial-13.4.31.300\AndroidManifest.xml:13:9-15:60
+85            android:name="com.huawei.hms.client.service.name:ads-interstitial"
+85-->[com.huawei.hms:ads-interstitial:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\dabbb10a8c7777789024a8309675938a\ads-interstitial-13.4.31.300\AndroidManifest.xml:14:13-79
+86            android:value="ads-interstitial:13.4.31.300" />
+86-->[com.huawei.hms:ads-interstitial:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\dabbb10a8c7777789024a8309675938a\ads-interstitial-13.4.31.300\AndroidManifest.xml:15:13-57
+87        <meta-data
+87-->[com.huawei.hms:ads-reward:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\8e32550046b3c47ba9968b15b5575689\ads-reward-13.4.31.300\AndroidManifest.xml:13:9-15:54
+88            android:name="com.huawei.hms.client.service.name:ads-reward"
+88-->[com.huawei.hms:ads-reward:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\8e32550046b3c47ba9968b15b5575689\ads-reward-13.4.31.300\AndroidManifest.xml:14:13-73
+89            android:value="ads-reward:13.4.31.300" />
+89-->[com.huawei.hms:ads-reward:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\8e32550046b3c47ba9968b15b5575689\ads-reward-13.4.31.300\AndroidManifest.xml:15:13-51
+90        <meta-data
+90-->[com.huawei.hms:ads-lang:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\5954719c96db8967a0436b58723edda0\ads-lang-13.4.31.300\AndroidManifest.xml:13:9-15:52
+91            android:name="com.huawei.hms.client.service.name:ads-lang"
+91-->[com.huawei.hms:ads-lang:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\5954719c96db8967a0436b58723edda0\ads-lang-13.4.31.300\AndroidManifest.xml:14:13-71
+92            android:value="ads-lang:13.4.31.300" />
+92-->[com.huawei.hms:ads-lang:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\5954719c96db8967a0436b58723edda0\ads-lang-13.4.31.300\AndroidManifest.xml:15:13-49
+93        <meta-data
+93-->[com.huawei.hms:ads-splash:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\1014035f976ad469116c1f6e009424c4\ads-splash-13.4.31.300\AndroidManifest.xml:13:9-15:54
+94            android:name="com.huawei.hms.client.service.name:ads-splash"
+94-->[com.huawei.hms:ads-splash:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\1014035f976ad469116c1f6e009424c4\ads-splash-13.4.31.300\AndroidManifest.xml:14:13-73
+95            android:value="ads-splash:13.4.31.300" />
+95-->[com.huawei.hms:ads-splash:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\1014035f976ad469116c1f6e009424c4\ads-splash-13.4.31.300\AndroidManifest.xml:15:13-51
+96        <meta-data
+96-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:17:9-19:52
+97            android:name="com.huawei.hms.client.service.name:ads-base"
+97-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:18:13-71
+98            android:value="ads-base:13.4.31.300" />
+98-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:19:13-49
+99
+100        <activity
+100-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:21:9-39:20
+101            android:name="com.huawei.openalliance.ad.activity.PPSLauncherActivity"
+101-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:22:13-83
+102            android:exported="true"
+102-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:23:13-36
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+103-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:24:13-72
+104            <intent-filter>
+104-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:25:13-34:29
+105                <action android:name="android.intent.action.VIEW" />
+105-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:26:17-69
+105-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:26:25-66
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:28:17-76
+107-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:28:27-73
+108                <category android:name="android.intent.category.BROWSABLE" />
+108-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:29:17-78
+108-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:29:27-75
+109
+110                <data
+110-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:31:17-33:46
+111                    android:host="com.huawei.hms.ads.sdk"
+111-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:32:21-52
+112                    android:scheme="hwpps" />
+112-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:33:21-43
+113            </intent-filter>
+114
+115            <meta-data
+115-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:36:13-38:88
+116                android:name="hwc-theme"
+116-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:37:17-41
+117                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+117-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:38:17-85
+118        </activity>
+119        <activity
+119-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:40:9-47:20
+120            android:name="com.huawei.openalliance.ad.activity.PPSBridgeActivity"
+120-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:41:13-81
+121            android:exported="false"
+121-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:42:13-37
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+122-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:43:13-72
+123            <meta-data
+123-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:36:13-38:88
+124                android:name="hwc-theme"
+124-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:37:17-41
+125                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+125-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:38:17-85
+126        </activity>
+127        <activity
+127-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:48:9-55:20
+128            android:name="com.huawei.openalliance.ad.activity.PPSNotificationActivity"
+128-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:49:13-87
+129            android:exported="false"
+129-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:50:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+130-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:51:13-72
+131            <meta-data
+131-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:36:13-38:88
+132                android:name="hwc-theme"
+132-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:37:17-41
+133                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+133-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:38:17-85
+134        </activity>
+135        <activity
+135-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:56:9-64:20
+136            android:name="com.huawei.openalliance.ad.activity.AgProtocolActivity"
+136-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:57:13-82
+137            android:configChanges="orientation|screenSize"
+137-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:58:13-59
+138            android:exported="false"
+138-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:59:13-37
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+139-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:60:13-72
+140            <meta-data
+140-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:36:13-38:88
+141                android:name="hwc-theme"
+141-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:37:17-41
+142                android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+142-->[com.huawei.hms:ads-base:13.4.31.300] C:\Users\z84170229\.gradle\caches\transforms-2\files-2.1\fbe9b225706e347895f11c8d704e75e3\ads-base-13.4.31.300\AndroidManifest.xml:38:17-85
+143        </activity>
+144    </application>
+145
+146</manifest>
